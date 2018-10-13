@@ -1,6 +1,11 @@
 ##############################
 # Insertion Sort
+# Type: linear
+#
+# Time: O(n^2)
+# Space: O(1)
 ##############################
+import random
 
 def insertion_sort(list):
   length = len(list)
@@ -10,14 +15,15 @@ def insertion_sort(list):
     while(position > 0 and current<list[position-1]):
       list[position]=list[position-1]
       position -= 1
-      print(str(list))
+      #print(str(list))
     list[position]=current
-    print(str(position)+" >> "+str(current))
-    print(str(list))
+    #print(str(position)+" >> "+str(current))
+    #print(str(list))
 
   return list
 
-out_list = [12, 17, 4, 3,3,3, 10, 20, 15, 1, 8, 6]
+# Random list
+l = random.sample(range(1,100),10)
+print(l)
 
-print(out_list)
-print(insertion_sort(out_list))
+print(insertion_sort(l))

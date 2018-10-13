@@ -1,6 +1,11 @@
 ##############################
 # Bubble sort
+# Type: linear
+#
+# Time: O(n^2)
+# Space: O(1)
 ##############################
+import random
 
 def bubble_sort(list):
   length = len(list);
@@ -13,7 +18,9 @@ def bubble_sort(list):
 
   return list
 
-i_list = [175, 48, 12, 25, 100, 10, 10, 40, 23, 17]
-out = bubble_sort(i_list)
+# Random list
+l = random.sample(range(1,100),10)
+print(l)
 
-print(out)
+result = bubble_sort(l)
+print(result)
