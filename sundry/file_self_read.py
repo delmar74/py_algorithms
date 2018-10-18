@@ -10,4 +10,6 @@ def self_read():
  
   print(file.read()) 
 
+  file.close()
+
 self_read()
