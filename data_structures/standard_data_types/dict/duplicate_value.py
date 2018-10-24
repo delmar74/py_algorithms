@@ -1,4 +1,8 @@
+# Exercise
+# Swap keys and values. Duplicate values must create a list
+
 dict = {"a": 1, "b": 2, "c": 3, "d": 3, "e": 3}
+
 dict_new = {}
 for i in dict:
   t = []
