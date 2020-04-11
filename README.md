@@ -1,6 +1,6 @@
 # py_algorithms
 Data Structures and Algorithms
 
-[Wiki](py_algorithms/wiki)
+[Wiki](https://github.com/delmar74/py_algorithms/wiki)
 
 - [Graphs](graphs)
